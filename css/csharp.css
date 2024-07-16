@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  font-family: "Noto Serif" san-serif;
+  text-align: center;
+  background-color: #39275B;
+  color: #D7C896;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #39275B;
+  padding: 10px 0;
+  font-size: 30px;
+  border-bottom: 5px solid #DFDDE8;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-family: serif;
+}
+.nav-links a {
+text-decoration: none;
+padding: 0 10px;
+color: #D7C896;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropbtn {
+    font-size: 40px;
+    border: none;
+    outline: none;
+    color: #D7C896;
+    padding: 10px 16px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #39275B;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #D7C896;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+}
+
+.dropdown-content a:hover {
+    background-color: #DFDDE8;
+    color: #39275B;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.image-container {
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 50px;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+    gap: 20px; /* Adjust the spacing between images */
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+  border: 5px solid #D7C896;
+}
+
+h1{
+  margin-top: 10vh;
+  margin-bottom: 30px;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+h2{
+  margin-top: 10vh;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+p {
+  color: #D7C896;
+  font-size: 25px;
+  margin: 30x 0;
+}
+
+.description a {
+  color: #D7C896;
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.description a:hover {
+  color: #DFDDE8;
+  text-decoration: none; /* Optional: Add underline on hover */
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px; /* Adjust the gap between icons as needed */
+  justify-content: center; /* Move icons to the right */
+  align-items: center; /* Vertically center icons */
+  border-top: 3px solid #DFDDE8; /* Footer border color matching header */
+  padding-top: 10px; /* Add some space above the icons */
+}
+
+footer {
+  background: #39275B;
+  color: #D7C896;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  border-top: 5px solid #D7C896;
+}
+

@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  font-family: "Noto Serif" san-serif;
+  text-align: center;
+  background-color: #39275B;
+  color: #D7C896;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #39275B;
+  padding: 20px 0;
+  font-size: 30px;
+  border-bottom: 5px solid #DFDDE8;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-family: serif;
+}
+.nav-links a {
+text-decoration: none;
+padding: 0 10px;
+color: #D7C896;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.middle-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* You can adjust this value to control the vertical centering */
+}
+
+.middle-image img {
+  border: 5px solid #39275B; /* You can adjust the width and color of the border */
+}
+
+.middle-image p {
+  text-align: center; /* Center the text within the paragraph */
+  color: red; /* Set the text color */
+  font-size: 18px; /* Adjust the font size */
+  margin-top: 10px;
+}
+
+section{
+  min-height: 100vh;
+  padding: 70px 0;
+}
+#Welcome-section{
+  background-color: #D7C896;
+  color: #39275B;
+  display: flex;
+  flex-direction: column;
+}
+#Welcome-section h1{
+  margin-top: 5vh;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+#Welcome-section p {
+  color: #39275B;
+  font-size: 25px;
+  margin: 25px 0;
+  font-style: italic;
+}
+
+#Projects{
+  background-color: #39275B;
+  color: #D7C896;
+  border-bottom: 5px solid #D7C896;
+  border-top: 5px solid #DFDDE8;
+}
+#Projects h1{
+  border-bottom: 5px solid #DFDDE8;
+  font-size: 40px;
+  width: fit-content;
+  margin: auto;
+}
+
+#Projects p{
+  font-size: 20px;
+}
+
+.project {
+  text-align: center;
+  margin: 10px;
+  flex: 0 1 calc(25% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.project img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.description a {
+  color: #D7C896;
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.description a:hover {
+  color: #DFDDE8;
+  text-decoration: none; /* Optional: Add underline on hover */
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: space-around; /* Adjust this property to your preference */
+  flex-wrap: wrap; 
+}
+
+.image-carousel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow images to wrap to the next row */
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  margin-top: 5%;
+  position: relative;
+  white-space: nowrap;
+}
+
+.carousel-image {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #D7C896;
+}
+
+.carousel-image2 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #DFDDE8;
+}
+
+.carousel-image3 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #D7C896;
+}
+
+.carousel-image4 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #DFDDE8;
+}
+
+.carousel-image5 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #D7C896;
+}
+
+.carousel-image6 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #DFDDE8;
+}
+
+.carousel-image7 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #D7C896;
+}
+
+.carousel-image8 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #DFDDE8;
+}
+
+.carousel-image9 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #D7C896;
+}
+
+.carousel-image10 {
+  width: 100%; /* Take up the full width of the container */
+  height: 300px; /* Take up the full height of the container */
+  transition: transform 3s; /* Add a smooth transition effect */
+  border: 5px solid #DFDDE8;
+}
+
+ #Contact{
+    background-color: #DFDDE8;
+    color: #39275B;
+  }
+
+  #Contact h1{
+    margin-top: 100px;
+    font-size: 40px;
+    border-bottom: 5px solid #39275B;
+    width: fit-content;
+  margin: auto;
+  }
+  #Contact .Coffee{
+   color: #39275B;
+  font-size: 25px;
+  margin: 25px 0;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+  .contact-form {
+  max-width: 700px;
+  padding: 20px;
+  border: 3px solid #39275B;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #D7C896;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D7C896;
+  margin-left: 550px;
+}
+
+label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="phone"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid #DFDDE8;
+  border-radius: 4px;
+  background-color: #39275B;
+  color: #D7C896;
+}
+
+button {
+  background-color: #39275B;
+  color: #D7C896;
+  padding: 10px 20px;
+  border: none;
+  border: 3px solid #DFDDE8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px; /* Adjust the gap between icons as needed */
+  justify-content: center; /* Move icons to the right */
+  align-items: center; /* Vertically center icons */
+  border-top: 3px solid #DFDDE8; /* Footer border color matching header */
+  padding-top: 10px; /* Add some space above the icons */
+}
+
+footer {
+  background: #39275B;
+  color: #D7C896;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  border-top: 5px solid #D7C896;
+}
+
+/* Media queries for devices with a max-width of 768px (tablets and mobile phones) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  #Welcome-section h1,
+  #Projects h1,
+  #Contact h1 {
+    font-size: 30px;
+  }
+
+  #Welcome-section p,
+  #Projects p,
+  .Coffee {
+    font-size: 18px;
+  }
+
+  .project {
+    flex: 1 0 100%; /* Each project takes full width of the screen */
+    margin: 10px;
+    width: auto; /* Adjust width to be auto on smaller screens */
+  }
+
+  .image-carousel,
+  .carousel-image,
+  .carousel-image2,
+  .carousel-image3,
+  .carousel-image4,
+  .carousel-image5,
+  .carousel-image6,
+  .carousel-image7,
+  .carousel-image8,
+  .carousel-image9,
+  .carousel-image10 {
+    width: 100%; /* Full width for better visibility on smaller screens */
+    height: auto; /* Adjust height automatically */
+  }
+
+  .contact-form {
+    margin: 0; /* Center form on mobile */
+    width: 90%; /* Make form wider on smaller screens */
+    padding: 15px; /* Reduce padding */
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+
+/* Media queries specifically for devices with a max-width of 480px (phones) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Even smaller font size for very small screens */
+  }
+
+  #navbar {
+    font-size: 18px; /* Slightly smaller font size for navigation */
+  }
+
+  .nav-links a {
+    padding: 8px;
+    font-size: 16px; /* Larger tap targets but smaller text to fit */
+  }
+
+  #Welcome-section h1,
+  #Projects h1,
+  #Contact h1 {
+    font-size: 25px; /* Slightly smaller headings */
+  }
+
+  #Welcome-section p,
+  #Projects p,
+  .Coffee {
+    font-size: 16px; /* Smaller paragraph text */
+  }
+
+  .project {
+    padding: 5px; /* Reduce padding around projects for more space */
+  }
+
+  .image-carousel,
+  .carousel-image,
+  .carousel-image2,
+  .carousel-image3,
+  .carousel-image4,
+  .carousel-image5,
+  .carousel-image6,
+  .carousel-image7,
+  .carousel-image8,
+  .carousel-image9,
+  .carousel-image10 {
+    height: 200px; /* Reduce the height to better fit small screens */
+  }
+
+  .contact-form {
+    width: 95%; /* Use more of the screen width for the form */
+  }
+
+  footer {
+    font-size: 12px; /* Smaller footer text */
+  }
+}
+
